@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://i.pinimg.com/736x/82/0a/c2/820ac270bcd827451e2dc82e7d583997.jpg",
+    "title": "EduMaster: Learn Smartly",
+    "companyName": "Learnify Ltd",
+    "id": 1,
+    "description": "An all-in-one learning platform for students of grades 6-12.",
+    "size": 42,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "image": "https://i.pinimg.com/736x/e6/e1/0a/e6e10ab2e3c9398b286c16f6d5c3ec86.jpg",
+    "title": "QuizZone: Learn by Playing",
+    "companyName": "BrightTech",
+    "id": 2,
+    "description": "Interactive quiz app with thousands of practice questions.",
+    "size": 38,
+    "reviews": 2100,
+    "ratingAvg": 4.2,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://i.pinimg.com/736x/64/cf/d8/64cfd84cfdf435da48f69c733a425d90.jpg",
+    "title": "SmartSheets: Data Manager",
+    "companyName": "DataLogic",
+    "id": 3,
+    "description": "Manage and analyze academic data seamlessly.",
+    "size": 55,
+    "reviews": 980,
+    "ratingAvg": 4.6,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "image": "https://i.pinimg.com/736x/ce/d3/6e/ced36e35d39a3cb3199c58bfbf382b53.jpg",
+    "title": "BookHive: Study Library",
+    "companyName": "Eduverse Labs",
+    "id": 4,
+    "description": "Digital book library for academic and admission test materials.",
+    "size": 60,
+    "reviews": 430,
+    "ratingAvg": 4.1,
+    "downloads": 32000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 140 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "image": "https://example.com/app5.png",
+    "title": "TestLab: Exam Practice",
+    "companyName": "ExamPro Inc.",
+    "id": 5,
+    "description": "AI-based exam practice and performance analysis app.",
+    "size": 48,
+    "reviews": 1600,
+    "ratingAvg": 4.7,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 830 }
+    ]
+  },
+  {
+    "image": "https://example.com/app6.png",
+    "title": "LangPro: Learn Languages",
+    "companyName": "SoftNova",
+    "id": 6,
+    "description": "Learn English, Bangla, and more through smart exercises.",
+    "size": 40,
+    "reviews": 900,
+    "ratingAvg": 4.3,
+    "downloads": 68000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "image": "https://example.com/app7.png",
+    "title": "Mathify: Solve Smartly",
+    "companyName": "Udvash Tech",
+    "id": 7,
+    "description": "Smart math learning app with step-by-step AI problem solving.",
+    "size": 52,
+    "reviews": 2300,
+    "ratingAvg": 4.8,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 1440 }
+    ]
+  },
+  {
+    "image": "https://example.com/app8.png",
+    "title": "ResultXpress: Quick Results",
+    "companyName": "EduSoft BD",
+    "id": 8,
+    "description": "Automated student result publication and analysis tool.",
+    "size": 44,
+    "reviews": 780,
+    "ratingAvg": 4.4,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 355 }
+    ]
+  },
+  {
+    "image": "https://example.com/app9.png",
+    "title": "VisionLearn: See Concepts",
+    "companyName": "AI SmartLabs",
+    "id": 9,
+    "description": "Visual-based concept learning for science and technology.",
+    "size": 58,
+    "reviews": 1450,
+    "ratingAvg": 4.6,
+    "downloads": 130000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 725 }
+    ]
+  },
+  {
+    "image": "https://example.com/app10.png",
+    "title": "NoteCraft: Smart Notes",
+    "companyName": "ThinkSoft",
+    "id": 10,
+    "description": "Create, organize and share academic notes effortlessly.",
+    "size": 36,
+    "reviews": 600,
+    "ratingAvg": 4.0,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "image": "https://example.com/app11.png",
+    "title": "ExamVault: Secure Exams",
+    "companyName": "EduCore",
+    "id": 11,
+    "description": "Secure question paper and answer script management system.",
+    "size": 49,
+    "reviews": 820,
+    "ratingAvg": 4.5,
+    "downloads": 87000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "image": "https://example.com/app12.png",
+    "title": "SkillBoost: Build Skills",
+    "companyName": "NextGen Learn",
+    "id": 12,
+    "description": "Professional skill-building courses and certifications.",
+    "size": 61,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 1150 }
+    ]
+  },
+  {
+    "image": "https://example.com/app13.png",
+    "title": "ClassConnect: Smart Class",
+    "companyName": "Udvash Systems",
+    "id": 13,
+    "description": "Smart class scheduling and attendance tracking platform.",
+    "size": 43,
+    "reviews": 1150,
+    "ratingAvg": 4.4,
+    "downloads": 98000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "image": "https://example.com/app14.png",
+    "title": "AI Mentor: Study Helper",
+    "companyName": "EduAI Hub",
+    "id": 14,
+    "description": "Personal AI tutor for solving academic doubts instantly.",
+    "size": 59,
+    "reviews": 1750,
+    "ratingAvg": 4.8,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "image": "https://example.com/app15.png",
+    "title": "EduTrack: Learn Progress",
+    "companyName": "SmartLearn Co",
+    "id": 15,
+    "description": "Track your learning progress across multiple subjects.",
+    "size": 47,
+    "reviews": 900,
+    "ratingAvg": 4.4,
+    "downloads": 96000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://example.com/app16.png",
+    "title": "LearnFlow: Study Planner",
+    "companyName": "BrightPath",
+    "id": 16,
+    "description": "Plan and manage your study schedules effectively.",
+    "size": 41,
+    "reviews": 670,
+    "ratingAvg": 4.3,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 190 },
+      { "name": "5 star", "count": 275 }
+    ]
+  },
+  {
+    "image": "https://example.com/app17.png",
+    "title": "TaskMate: Daily Tasks",
+    "companyName": "SoftEdge",
+    "id": 17,
+    "description": "Organize daily academic and work-related tasks.",
+    "size": 39,
+    "reviews": 580,
+    "ratingAvg": 4.1,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 170 },
+      { "name": "5 star", "count": 215 }
+    ]
+  },
+  {
+    "image": "https://example.com/app18.png",
+    "title": "TeachEase: Tutor Tools",
+    "companyName": "EduPro",
+    "id": 18,
+    "description": "Teaching tools for creating lessons and assessments.",
+    "size": 57,
+    "reviews": 1100,
+    "ratingAvg": 4.6,
+    "downloads": 124000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 555 }
+    ]
+  },
+  {
+    "image": "https://example.com/app19.png",
+    "title": "ExamBoard: Test Maker",
+    "companyName": "AssessTech",
+    "id": 19,
+    "description": "Create and manage online tests efficiently.",
+    "size": 53,
+    "reviews": 1000,
+    "ratingAvg": 4.5,
+    "downloads": 102000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://example.com/app20.png",
+    "title": "EduCloud: Smart Storage",
+    "companyName": "SkyLearn",
+    "id": 20,
+    "description": "Cloud-based storage for educational materials.",
+    "size": 45,
+    "reviews": 850,
+    "ratingAvg": 4.4,
+    "downloads": 89000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 365 }
+    ]
+  },
+  {
+    "image": "https://example.com/app21.png",
+    "title": "TimeTrack: Study Timer",
+    "companyName": "FocusApps",
+    "id": 21,
+    "description": "Track and optimize your study hours efficiently.",
+    "size": 33,
+    "reviews": 520,
+    "ratingAvg": 4.2,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "image": "https://example.com/app22.png",
+    "title": "MarkMate: Grade Easy",
+    "companyName": "EduCore",
+    "id": 22,
+    "description": "Simplify exam marking with automation tools.",
+    "size": 42,
+    "reviews": 940,
+    "ratingAvg": 4.6,
+    "downloads": 99000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 465 }
+    ]
+  },
+  {
+    "image": "https://example.com/app23.png",
+    "title": "PrepNow: Admission Aid",
+    "companyName": "Udvash Systems",
+    "id": 23,
+    "description": "Prepare for university admission tests efficiently.",
+    "size": 50,
+    "reviews": 2000,
+    "ratingAvg": 4.8,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 1130 }
+    ]
+  },
+  {
+    "image": "https://example.com/app24.png",
+    "title": "EduChat: Ask Doubts",
+    "companyName": "BrightTech",
+    "id": 24,
+    "description": "Chat-based learning and doubt solving with teachers.",
+    "size": 38,
+    "reviews": 870,
+    "ratingAvg": 4.3,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 370 }
+    ]
+  },
+  {
+    "image": "https://example.com/app25.png",
+    "title": "StudySync: Learn Together",
+    "companyName": "Learnify Ltd",
+    "id": 25,
+    "description": "Collaborative learning app for group studies.",
+    "size": 46,
+    "reviews": 980,
+    "ratingAvg": 4.5,
+    "downloads": 105000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 445 }
+    ]
+  },
+  {
+    "image": "https://example.com/app26.png",
+    "title": "FormEase: Smart Forms",
+    "companyName": "DataLogic",
+    "id": 26,
+    "description": "Create and manage digital forms efficiently.",
+    "size": 40,
+    "reviews": 720,
+    "ratingAvg": 4.4,
+    "downloads": 67000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 310 }
+    ]
+  },
+  {
+    "image": "https://example.com/app27.png",
+    "title": "Graphix: Design Easy",
+    "companyName": "Udvash Creatives",
+    "id": 27,
+    "description": "Simple design tool for educational graphics.",
+    "size": 55,
+    "reviews": 1300,
+    "ratingAvg": 4.6,
+    "downloads": 123000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 680 }
+    ]
+  },
+  {
+    "image": "https://example.com/app28.png",
+    "title": "DocScan: Easy Scanning",
+    "companyName": "SoftEdge",
+    "id": 28,
+    "description": "Scan and organize academic documents instantly.",
+    "size": 37,
+    "reviews": 800,
+    "ratingAvg": 4.5,
+    "downloads": 76000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 240 },
+      { "name": "5 star", "count": 355 }
+    ]
+  }
+]
