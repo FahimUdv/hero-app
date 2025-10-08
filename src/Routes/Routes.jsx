@@ -15,7 +15,7 @@ const router = createBrowserRouter([
             {
                 index : true,
                 Component : Home,
-                loader : () => fetch('./allAppData.json'),
+                // loader : () => fetch('./allAppData.json'),
             },
             {
                 path : "/allapps",
