@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import useApps from '../Hooks/useApps';
 import AppCard from '../Components/AppCard';
+import NoSearchResults from './NoSearchResults';
 
 const AllApps = () => {
     const {apps} = useApps();
@@ -10,9 +11,8 @@ const AllApps = () => {
         apps.filter(app =>
             app.title.toLocaleLowerCase().includes(term)
         )
-        : apps
+        : apps;
 
-    
     return (
 
         <div className='flex flex-col mx-auto'>
@@ -42,13 +42,16 @@ const AllApps = () => {
                 </div>
             </div>
             
-            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-                {
-                    searchedApps.map(app => (
-                        <AppCard key={app.id} app={app}></AppCard>
-                    ))
-                }
-            </div>
+
+            {searchedApps.length === 0 ? (
+                <NoSearchResults query={search} /> 
+            ) : (
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {searchedApps.map(app => (
+                    <AppCard key={app.id} app={app} />
+                ))}
+                </div>
+            )}
         </div>
     );
 };

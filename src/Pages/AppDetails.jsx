@@ -10,6 +10,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { FaDownload, FaStar } from 'react-icons/fa6';
+import NoAppFound from './NoAppFound';
 
 
 const AppDetails = () => {
@@ -20,6 +21,10 @@ const AppDetails = () => {
     if(loading) {
         return <p>Loading...</p>
     }
+    if (!app) {
+        return <NoAppFound />;
+    }
+
     const {title, image, downloads, ratingAvg, ratings, description} = app || {};
 
     const handleAddToInstalled = () => {
