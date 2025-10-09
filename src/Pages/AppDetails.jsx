@@ -11,7 +11,7 @@ import {
 } from 'recharts';
 import { FaDownload, FaStar } from 'react-icons/fa6';
 import NoAppFound from './NoAppFound';
-
+import { Slide, ToastContainer, toast } from 'react-toastify';
 
 const AppDetails = () => {
     const {id} = useParams();
@@ -33,7 +33,17 @@ const AppDetails = () => {
         if (existingList) {
             const isDuplicate = existingList.some(a => a.id === app.id);
             if (isDuplicate) {
-                alert('App is already installed.');
+                toast.error('App is already Installed.', {
+                    position: "top-right",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: false,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                    transition: Slide,
+                });
                 return;
             }
             updatedList = [...existingList, app];
@@ -41,6 +51,17 @@ const AppDetails = () => {
             updatedList.push(app);
         }
         localStorage.setItem('installedApps', JSON.stringify(updatedList))
+        toast.success('Congrats! Your app is installed.', {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            transition: Slide,
+        });
     }
 
     return (
@@ -64,6 +85,7 @@ const AppDetails = () => {
                 </div>
             </div>
             <button onClick={handleAddToInstalled} className='btn btn-primary mx-auto'>Install App</button>
+            <ToastContainer />
 
             
             <div className="space-y-3 mt-6 px-4">

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Slide, ToastContainer, toast } from 'react-toastify';
 
 const InstalledApps = () => {
     const [installedApps, setInstalledApps] = useState([]);
@@ -27,6 +28,17 @@ const InstalledApps = () => {
         let updatedList = existingList.filter(a => a.id !== id);
         setInstalledApps(updatedList);
         localStorage.setItem('installedApps', JSON.stringify(updatedList))
+        toast.warn('App is Uninstalled!', {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            transition: Slide,
+        });
     }
 
 
@@ -59,12 +71,13 @@ const InstalledApps = () => {
                             <div className='flex justify-between items-center border p-3 my-2' key={app.id}>
                                 <div key={app.id}>{app.title}</div>
                                 <button onClick={() => handleRemove(app.id)} className='btn'>Delete</button>
+                                
                             </div>
                         )
                     }
                     
                     )
-                }
+                }<ToastContainer />
             </div>
         </div>
     );
