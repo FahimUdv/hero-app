@@ -1,16 +1,49 @@
-# React + Vite
+# 🚀 HERO.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**HERO.IO** is a React-based web application that showcases all the apps developed by our team — each with detailed information such as description, download count, rating, and more.  
+It serves as a central hub for discovering and managing our in-house apps.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo  
+🔗 [View the Project](#) <!-- Replace # with your live site link -->
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
+<!-- You can add a screenshot later -->
+![App Screenshot](#)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Features
+
+- 📱 Displays a collection of all created apps  
+- 🔍 Smart search and filtering options  
+- 📊 Visual insights using **Recharts** (e.g., downloads, ratings, usage trends)  
+- 💾 Persistent data handling via **localStorage**  
+- ⚡ Fast, responsive, and mobile-friendly UI  
+- 🎨 Styled beautifully with **Tailwind CSS** and **DaisyUI**  
+- 🔁 Dynamic routing using **React Router**
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | React, JavaScript, HTML5, CSS3 |
+| **Styling** | Tailwind CSS, DaisyUI |
+| **Routing** | React Router |
+| **Data Visualization** | Recharts |
+| **State Management** | React Hooks (`useState`, `useEffect`) |
+| **Storage** | LocalStorage |
+| **Build Tool** | Vite |
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/HERO.IO.git
