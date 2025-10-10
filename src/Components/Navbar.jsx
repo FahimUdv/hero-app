@@ -4,6 +4,11 @@ import { FaGithub } from "react-icons/fa";
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
+    const navLinkClass = ({ isActive }) =>
+    isActive
+      ? "text-[#2141b1] underline underline-offset-4 decoration-[#2141b1]"
+      : "hover:text-[#2141b1]";
+
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -14,22 +19,25 @@ const Navbar = () => {
                 <ul
                     tabIndex={0}
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><NavLink tp="/">Home</NavLink></li>
+                    <li><NavLink to="/" className={navLinkClass}>Home</NavLink></li>
                     <li><NavLink to="/allapps">Apps</NavLink></li>
                     <li><NavLink to="installedapps">Installation</NavLink></li>
                 </ul>
                 </div>
-                <img className='w-[40px] h-[40px]' src={logo} alt="" /> <span className='mx-2 font-semibold text-[#2141b1]'>HERO.IO</span>
+                <NavLink to='/' className='flex items-center lg:ps-20'>
+                    <img className='w-[40px] h-[40px]' src={logo} alt="" /> <span className='mx-2 font-semibold text-[#2141b1]'>HERO.IO</span>
+                </NavLink>
+                
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><NavLink tp="/">Home</NavLink></li>
-                    <li><NavLink to="/allapps">Apps</NavLink></li>
-                    <li><NavLink to="installedapps">Installation</NavLink></li>
+                    <li className='font-semibold'><NavLink to="/" className={navLinkClass}>Home</NavLink></li>
+                    <li className='font-semibold'><NavLink to="/allapps" className={navLinkClass}>Apps</NavLink></li>
+                    <li className='font-semibold'><NavLink to="installedapps" className={navLinkClass}>Installation</NavLink></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <NavLink className="btn"><FaGithub /> Contribute</NavLink>
+            <div className="navbar-end md:me-6 lg:me-18">
+                <NavLink to='https://github.com/FahimUdv' className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]" target='_blank' rel='noopener noreferrer'><FaGithub /> Contribute</NavLink>
             </div>
         </div>
     );
