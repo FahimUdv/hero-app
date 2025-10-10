@@ -49,7 +49,9 @@ const AllApps = () => {
 
     return (
 
-        <div className='flex flex-col mx-auto'>
+        <div className='flex flex-col mx-auto lg:mx-24 lg:my-16'>
+            <h1 className='text-center text-[42px] font-bold'>Our All Applications</h1>
+            <p className='text-center text-[#627382] mt-3'>Explore All Apps on the Market developed by us. We code for Millions</p>
             <div className='flex justify-between py-6'>
                 <div>
                     <h1 className='text-2xl font-semibold'><span>{`(${searchedApps.length})`}</span> Apps Found</h1>
